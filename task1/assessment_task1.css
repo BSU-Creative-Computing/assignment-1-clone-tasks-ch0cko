@@ -1,0 +1,36 @@
+body {
+    max-width: 100%;
+    margin: auto;
+}
+
+#navimg {
+    max-width: 5%;
+    position: relative;
+}
+
+div {
+    display: flex;
+    float: left;
+    position: relative;
+}
+
+img {
+    max-width: 33.3%;
+    height: auto;
+}
+
+section {
+    position: relative;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    background: black;
+    text-align: center;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}

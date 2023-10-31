@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+
+.body {
+    width: 1000px;
+    margin: auto;
+}
+
+.nav { 
+    display: flex;
+    background-color: lightblue;
+    color: white;
+}
+
+h3 {
+    padding: 10px;
+}
+
+.t1 {
+    margin-left: 5px;
+}
+
+ul {
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    list-style: none;
+}
+
+img {
+    height: 50%;
+    width: 100%;
+}
+
+.div1 {
+    display: flex;
+    float: left;
+    margin-top: 20px;
+}
+
+.div2, .div3 {
+    display: flex;
+    float: right;
+    margin-top: 20px;
+}
+
+.sec1 {
+    height: 900px;
+    width: 500px;
+    border: solid 1px black;
+    margin: 5px;
+    box-shadow: 3 3 8 2;
+}
+
+.sec2, .sec3, .sec4, .sec5 {
+    height: 500px;
+    width: 200px;
+    border: solid 1px black;
+    padding: 15px;
+    margin: 5px;
+    box-shadow: 3 3 8 2;
+}
+
+button {
+    background-color: lightblue;
+}
