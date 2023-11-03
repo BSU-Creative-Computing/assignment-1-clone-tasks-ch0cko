@@ -1,67 +1,95 @@
 body {
     margin: 0;
+    background-color: rgb(225, 225, 225);
 }
 
 .body {
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
 }
 
 .nav { 
     display: flex;
-    background-color: lightblue;
+    background-color: rgb(24, 121, 212);
     color: white;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-h3 {
-    padding: 10px;
-}
-
-.t1 {
-    margin-left: 5px;
+.search {
+    height: 20px;
+    width: 200px;
+    background-color: white;
+    color: rgb(173, 173, 173);
+    margin: auto;
+    padding-left: 10px;
 }
 
 ul {
     display: flex;
-    padding-left: 20px;
-    padding-top: 10px;
     list-style: none;
 }
 
+li {
+    margin-left: 10px;
+}
+
 img {
-    height: 50%;
+    height: auto;
     width: 100%;
+    margin: 0;
 }
 
-.div1 {
-    display: flex;
-    float: left;
-    margin-top: 20px;
+.text1 {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.div2, .div3 {
-    display: flex;
+button {
     float: right;
-    margin-top: 20px;
+    justify-content: flex-end;
+    background-color: rgb(24, 121, 212);
+    color: white;
+    border-radius: 5px;
+}
+
+section {
+    background-color: white;
 }
 
 .sec1 {
-    height: 900px;
+    height: 650px;
     width: 500px;
-    border: solid 1px black;
     margin: 5px;
-    box-shadow: 3 3 8 2;
+    box-shadow: 1px 1px 4px 2px rgb(169, 169, 169);
+    text-align: justify;
 }
 
 .sec2, .sec3, .sec4, .sec5 {
     height: 500px;
     width: 200px;
-    border: solid 1px black;
-    padding: 15px;
+    padding: 10px;
     margin: 5px;
-    box-shadow: 3 3 8 2;
+    box-shadow: 1px 1px 4px 2px rgb(169, 169, 169);
+    text-align: justify;
 }
 
-button {
-    background-color: lightblue;
+.div1, .div2 {
+    display: flex;
+    float: left;
+    margin-top: 20px;
+}
+
+.div3 {
+    display: flex;
+    float: left;
+}
+
+footer {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    float: inline-end;
 }
