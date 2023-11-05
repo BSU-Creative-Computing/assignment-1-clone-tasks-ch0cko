@@ -1,0 +1,96 @@
+$bg1: #4e89ae;
+$bg2: #43658b;
+$bg3: #ed6663;
+$bg4: #ffa372;
+
+@mixin center ($align, $justify) {
+    align-items: $align;
+    justify-content: $justify;
+}
+
+@mixin column ($column) {
+    flex-direction: $column;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #8ccff7;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.sec1 {
+    width: 100%;
+    height: 40px;
+    background-color: $bg1;
+}
+
+.sec2 {
+    @extend .sec1;
+    background-color: $bg2;
+}
+
+.sec3 {
+    @extend .sec1;
+    background-color: $bg3;
+}
+
+.sec4 {
+    @extend .sec1;
+    background-color: $bg4;
+    margin-bottom: 40px;;
+}
+
+.circle1 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: $bg1;
+    margin: 5px;
+}
+
+.circle2 {
+    @extend .circle1;
+    width: 80px;
+    height: 80px;
+    background-color: $bg2;
+}
+
+.circle3 {
+    @extend .circle1;
+    width: 90px;
+    height: 90px;
+    background-color: $bg3;
+}
+
+.circle4 {
+    @extend .circle1;
+    width: 100px;
+    height: 100px;
+    background-color: $bg4;
+}
+
+.circles {
+    @include center(center, center);
+    display: flex;
+}
+
+.sec1:hover, .sec:hover, .sec3:hover, .sec4:hover, .circle1:hover, .circle2:hover, .circle3:hover, .circle4:hover {
+    background-color: #444;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #8ccff7;
+    margin-top: 40px;
+}
+
