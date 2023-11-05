@@ -8,7 +8,7 @@ header {
   margin-bottom: 40px;
 }
 
-img {
+source, img {
   display: block;
   margin: auto;
 }
@@ -64,7 +64,7 @@ img {
   display: flex;
 }
 
-.sec1:hover, .sec2:hover, .sec:hover, .sec3:hover, .sec4:hover, .circle1:hover, .circle2:hover, .circle3:hover, .circle4:hover {
+section:hover {
   background-color: #444;
 }
 
@@ -73,4 +73,10 @@ footer {
   height: 50px;
   background-color: #8ccff7;
   margin-top: 40px;
+}
+
+@media screen and (max-width: 620px) {
+  .circles {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=task3.css.map */
