@@ -36,6 +36,10 @@ li {
     margin-left: 10px;
 }
 
+h3 {
+    width: 20%;
+}
+
 img {
     height: auto;
     width: 100%;
@@ -79,7 +83,6 @@ section {
 .div1, .div2 {
     display: flex;
     float: left;
-    margin-top: 20px;
 }
 
 .div3 {
@@ -92,4 +95,54 @@ footer {
     margin-top: 20px;
     text-align: center;
     float: inline-end;
+}
+
+@media screen and (max-width: 1280px) {
+    body {
+        max-width: 100%
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .div2, .div3 {
+        display: inline;
+        float: right;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .div1 {
+        display: block;
+    }
+
+    .search {
+        display: none
+    }
+
+    .sec1 {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        margin: auto
+    }
+
+    .search {
+        display: none
+    }
+
+    .sec1 {
+        width: 220px;
+    }
+
+    section {
+        margin: auto
+    }
 }
